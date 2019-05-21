@@ -1,7 +1,7 @@
 // ---------------------------------------------------------------------------
 // Basic settings
 
-name := "classutil"
+name := "classutil4s"
 
 organization := "coreconsult"
 bintrayOrganization := Some(organization.value)
