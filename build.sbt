@@ -6,7 +6,7 @@ name := "classutil"
 organization := "coreconsult"
 bintrayOrganization := Some(organization.value)
 
-version := "1.4.1"
+version := "1.4.2"
 
 licenses := Seq(
   "BSD New" -> url("http://software.clapper.org/classutil/license.html")
