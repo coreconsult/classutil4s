@@ -3,21 +3,22 @@
 
 name := "classutil"
 
-organization := "org.clapper"
+organization := "coreconsult"
+bintrayOrganization := Some(organization.value)
 
-version := "1.4.0"
+version := "1.4.1"
 
 licenses := Seq(
   "BSD New" -> url("http://software.clapper.org/classutil/license.html")
 )
 
-homepage := Some(url("http://software.clapper.org/classutil/"))
+homepage := Some(url("https://github.com/coreconsult/classutil4s"))
 
 description := "A library for fast runtime class-querying, and more"
 
-scalaVersion := "2.11.12"
+scalaVersion := "2.12.8"
 
-crossScalaVersions := Seq("2.10.7", "2.11.12", "2.12.8")
+crossScalaVersions := Seq("2.11.12", "2.12.8")
 
 // ---------------------------------------------------------------------------
 // Additional compiler options and plugins
@@ -90,8 +91,8 @@ pomIncludeRepository := { _ => false }
 
 pomExtra := (
   <scm>
-    <url>git@github.com:bmc/classutil.git/</url>
-    <connection>scm:git:git@github.com:bmc/classutil.git</connection>
+    <url>git@github.com:coreconsult/classutil4s.git/</url>
+    <connection>scm:git:git@github.com:coreconsult/classutil4s.git</connection>
   </scm>
   <developers>
     <developer>
